@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(253, 160, 202, 0.769);
+  background: #45badd;
 }
 
 .container {
@@ -10,16 +10,29 @@ body {
   flex-direction: column;
 }
 
+.joke-container {
+  color: black;
+  font-size: 18px;
+  width: 75%;
+  text-align: center;
+}
+
+.container img {
+  max-width: 500px;
+  margin-bottom: 100px;
+}
+
 #joke-btn {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   cursor: pointer;
-  background-color: rgb(212, 109, 157);
-  width: 130px;
-  height: 50px;
-  border-radius: 5px;
-  color: rgba(255, 255, 255, 0.854);
+  background-color: #ff3482;
+  color: rgb(65, 65, 65);
+  padding: 20px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
 }
 
 #joke-btn:hover {
-  background-color: rgb(237, 79, 153);
+  background-color: #ff67a1;
 }
